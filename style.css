@@ -30,6 +30,7 @@ aside{
     background-color: rgb(52, 132, 139);
     color: white;
     text-shadow: 2px 3px 3px black;
+    
 }
 
 footer{
@@ -81,6 +82,29 @@ footer{
     max-width: 500px;
 }
 
+.background {
+    display: block;
+    background: rgb(27, 102, 134) !important;
+    border: 5px solid rgb(20, 59, 79);
+    border-radius: 20px;
+    padding: 15px;
+    margin: 15px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px 1px rgb(0, 0, 0);
+}
+
+.backgroundh2 {
+    font-size: 35px;
+    text-align: center;
+    display: block;
+    background: rgb(38, 148, 195) !important;
+    border: 5px solid rgb(20, 59, 79);
+    border-radius: 20px;
+    padding: 0px;
+    margin: 5px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px 1px rgb(0, 0, 0);
+}
 /* Javitasok:
 - az <i></i> az italic inline
 - a kepben nem lehet hasznalni alignt, max egy divben*/
